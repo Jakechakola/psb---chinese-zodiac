@@ -1,0 +1,8 @@
+ public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String[] zod = {"Monkey", "Rooster", "Dog", "Boar", "Rat", "Ox",
+            "Tiger", "Rabbit", "Dragon", "Snake", "Horse", "Sheep"};
+        System.out.print("Input year: ");
+        int year = (input.nextInt())%12;
+        System.out.println("Your chinese zodiac is "+zod[year]);
+    }
